@@ -27,7 +27,7 @@ public class EjemploOrdenes {
             ordenCompra.setCliente(new Cliente(name, lastname));
             System.out.println("Ingrese productos de la " + ordenCompras.get(i).getDescripcion());
 
-            for (int j = 0; j < 2; j++) {
+            for (int j = 0; j < 3; j++) {
                 System.out.println("Ingrese nuevo Producto " + (j + 1));
                 System.out.println("Ingrese nombre de fabricante: ");
                 fabricante = scanner.next();
@@ -56,4 +56,4 @@ public class EjemploOrdenes {
         }
 
     }
-} 
+}

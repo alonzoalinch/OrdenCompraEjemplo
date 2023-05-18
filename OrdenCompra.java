@@ -32,10 +32,6 @@ public class OrdenCompra {
         this.fecha = fecha;
     }
 
-    public void setDescripcion(String descripcion) {
-        this.descripcion = descripcion;
-    }
-
     public void setCliente(Cliente cliente) {
         this.cliente = cliente;
     }
